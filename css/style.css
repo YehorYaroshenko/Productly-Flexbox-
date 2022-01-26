@@ -145,7 +145,7 @@ ul.tools-list {
    width: 25%;
    padding-right: 40px;
 }
-h3 {
+h3.tools-h {
    font-weight: 600;
    font-size: 22px;
    color: #2F281E;
@@ -177,4 +177,114 @@ p.tool-info {
 .des-tools-btn:hover {
    background-color: black;
    color: #FF9900;
+}
+
+/* ======SECTION DESIGN PRO====== */
+
+section.des-pro {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 210px;
+}
+.pro-info {
+   padding-right: 110px;
+   padding-top: 25px;
+}
+.pro-info-text {
+   font-weight: 500;
+   line-height: 26px;
+   color: #544837;
+   margin-bottom: 25px;
+}
+h2.des-pro-h {
+   font-weight: 700;
+   font-size: 36px;
+   color: #2F281E;
+   margin-bottom: 25px;
+}
+h3.des-pro-mini-h {
+   font-weight: 700;
+   font-size: 16px;
+   color: #2F281E;
+   margin-bottom: 12px;
+}
+.pro-info-text:first-child {
+   margin: 0;
+}
+
+/* =========SECTION PRODUCT===== */
+
+section.product {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+.product-info {
+   padding-left: 100px;
+   padding-top: 50px;
+}
+.product-p {
+   font-weight: 500;
+   line-height: 26px;
+   color: #544837;
+}
+h2.product-h {
+   font-weight: 700;
+   font-size: 36px;
+   color: #2F281E;
+   margin-bottom: 25px;
+}
+.product-list {
+   margin-top: 30px;
+}
+.product-li {
+   display: flex;
+   margin-bottom: 30px;
+}
+.product-li > p {
+   display: flex;
+   align-items: center;
+   padding: 0 60px 0 30px;
+   font-weight: 500;
+   line-height: 26px;
+   color: #544837;
+}
+.product-img {
+   display: flex;
+   align-items: center;
+}
+
+/* ========SECTION MARKET======= */
+
+section.market {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 105px;
+   padding-bottom: 145px;
+   border-bottom: 1px solid rgba(188, 208, 229, 0.496913);
+}
+.market-info {
+   padding-right: 110px;
+   padding-top: 25px;
+}
+.market-info-text {
+   font-weight: 500;
+   line-height: 26px;
+   color: #544837;
+   margin-bottom: 25px;
+}
+h2.des-market-h {
+   font-weight: 700;
+   font-size: 36px;
+   color: #2F281E;
+   margin-bottom: 25px;
+}
+h3.des-market-mini-h {
+   font-weight: 700;
+   font-size: 16px;
+   color: #2F281E;
+   margin-bottom: 12px;
+}
+.market-info-text:first-child {
+   margin: 0;
 }
