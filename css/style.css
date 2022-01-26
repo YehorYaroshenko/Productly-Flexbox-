@@ -288,3 +288,64 @@ h3.des-market-mini-h {
 .market-info-text:first-child {
    margin: 0;
 }
+
+/* =======FOOTER===== */
+
+footer {
+   margin-top: 100px;
+   margin-bottom: 75px;
+}
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+}
+.footer-container > ul, .form {
+   margin-top: 60px;
+}
+.foot-li {
+   margin-bottom: 15px;
+}
+.foot-li > a {
+   font-weight: 400;
+   color: #544837;
+   transition: all 0.2s ease-out;
+}
+.foot-li > a:hover {
+   color: #FF9900;
+}
+
+input {
+   display: block;
+   width: 325px;
+   height: 45px;
+   border: 1px solid #BCD0E5;
+   border-radius: 4px;
+   padding: 10px;
+   font-family: 'Poppins';
+   transition: all 0.2s ease-out;
+}
+input:focus {
+   color: #212529;
+   background-color: #fff;
+   border-color: #f7b843;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgb(233, 192, 115);
+}
+.form-btn {
+   margin-top: 20px;
+   cursor: pointer;
+   font-family: 'Poppins';
+   font-weight: 700;
+   color: white;
+   background-color: #FF9900;
+   border: none;
+   border-radius: 4px;
+   padding: 8px 15px;
+   transition: all 0.2s ease-out;
+}
+.form-btn:hover {
+   color: #FF9900;
+   background-color: black;
+}
+
+/* =======/footer===== */
